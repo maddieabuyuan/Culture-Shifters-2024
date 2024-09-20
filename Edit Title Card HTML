@@ -1,0 +1,99 @@
+
+.cli-text p { 
+margin-top: 32px !important;}
+
+p {
+font-family: thermal-variable, sans-serif;
+font-style: normal;
+font-variation-settings: "opsz" 100, "wght" 400;
+}
+
+.firstp_cs:first-letter {
+font-size: 90px;
+line-height: 60px;
+font-family: gazzetta-variable, sans-serif;
+font-variation-settings: "wght" 500;
+/*CHANGE THIS*/ color: #df213b;
+
+}
+
+.credit {
+margin: 20px;
+font-size: 0.75rem;
+font-family: thermal-variable, sans-serif;
+font-style: normal;
+font-variation-settings: "opsz" 100, "wght" 400;
+float: right;
+}
+
+h1 {
+font-family: gazzetta-variable, sans-serif;
+font-variation-settings: "wght" 300;
+font-size: 6em;
+width: 800px;
+text-align: left;
+margin: auto;
+letter-spacing: .05rem;
+}
+
+.byline_cs5 {
+font-family: gazzetta-variable, sans-serif;
+font-variation-settings: "wght" 400;
+font-size: 3.5em;
+width: 800px;
+margin: auto;
+text-transform: uppercase;
+letter-spacing: .05rem;
+/*CHANGE THIS*/ color: #df213b;
+}
+
+.cs5 {
+font-family: gazzetta-variable, sans-serif;
+font-variation-settings: "wght" 400;
+font-size: 3.5em;
+padding-bottom: 35px;
+width: 800px;
+margin: auto;
+text-transform: uppercase;
+line-height: 40px;
+letter-spacing: .05rem;
+/*CHANGE THIS*/ color: #df213b;
+}
+
+.mobile_imagecs5 {
+display: none;
+}
+
+@media only screen and (max-width: 900px) {
+h1 { width:auto; 
+margin: 20px;}
+
+.byline_cs5 {
+width: auto;
+margin: 0px 20px 45px;
+line-height: 1.5; }
+
+.cs5 {
+width: auto;
+margin: 0px 20px 20px;
+line-height: 1.5;
+padding-bottom: 10px; }
+}
+
+@media only screen and (max-width: 600px ) {
+.mobile_imagecs5 {
+display: block;
+}
+
+.desktop_imagecs5 {
+display: none; }
+
+h1 {
+letter-spacing: 0;} }
+
+
+
+
+---------------------
+<link rel="stylesheet" href="https://use.typekit.net/ctr0qaz.css">
+
