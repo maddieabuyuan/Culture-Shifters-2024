@@ -1,6 +1,19 @@
 .cli-text p { 
 margin-top: 32px !important;}
 
+.CS_dek {
+display: block;
+font-family: thermal-variable, sans-serif;
+font-style: normal;
+font-variation-settings: "opsz" 300, "wght" 400;
+font-size: 20pt;
+text-align: center;
+line-height: 1.5;
+width: 954px;
+margin: auto;
+padding: 8px;
+}
+
 .CS_link {
 font-family: thermal-variable, sans-serif;
 font-variation-settings: "opsz" 100, "wght" 200 !important;
@@ -92,6 +105,8 @@ margin: 0px 20px 20px;
 line-height: 1.5;
 padding-bottom: 10px; }
 }
+@media only screen and (max-width: 984px ) {
+.CS_dek {width: 100%}}
 
 @media only screen and (max-width: 697px ) {
 .CS_link {
